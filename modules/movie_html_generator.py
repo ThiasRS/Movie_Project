@@ -5,8 +5,8 @@ def generate_website(movies_data):
     """Generates a static HTML website from the database data"""
 
     # Pfade definieren (relativ zum Hauptverzeichnis)
-    template_path = os.path.join('_static', 'index_template.html')
-    output_path = os.path.join('_static', 'index.html')
+    template_path = os.path.join('../_static', 'index_template.html')
+    output_path = os.path.join('../_static', 'index.html')
 
     # 1. Generate HTML Content
     movie_html_items = ""

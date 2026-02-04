@@ -1,6 +1,6 @@
 from datetime import datetime
-from movie_html_generator import generate_website
-import movie_storage_sql as storage
+from modules.movie_html_generator import generate_website
+from modules import movie_storage_sql as storage
 import statistics
 import random
 import requests
