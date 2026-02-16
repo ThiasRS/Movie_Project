@@ -1,5 +1,6 @@
 # --- MY CUSTOM IGNORES ---
 .idea/
+.env
 *.db
 *.sqlite
 _static/index.html

@@ -1,13 +1,18 @@
 from datetime import datetime
 from modules.movie_html_generator import generate_website
 from modules import movie_storage_sql as storage
+from dotenv import load_dotenv
+import os
 import statistics
 import random
 import requests
 
 
+load_dotenv()
+
+
 CURRENT_YEAR = datetime.now().year
-API_KEY = '8500331e'
+API_KEY = os.getenv('API_KEY')
 
 
 def print_program_title():
